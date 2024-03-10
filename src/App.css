@@ -1,0 +1,33 @@
+/* Inside your App.js or a separate CSS file */
+body {
+    font-family: 'Roboto', sans-serif; /* Google's Material Design Font */
+  }
+  
+  .min-h-screen {
+    background-color: #121212; /* Dark background */
+  }
+  
+  .flex-col, input, button, textarea { 
+    color: #f5f5f5; /* Light text color */
+  } 
+  
+  input, textarea {
+    background-color: #202020; /* Slightly lighter input background */
+    border: 1px solid #303030;  /* Subtle border */
+    border-radius: 4px;
+    padding: 8px 12px;
+  }
+  
+  button {
+    background-color: #303030; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #404040; 
+  }
+  
