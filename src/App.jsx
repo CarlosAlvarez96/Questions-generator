@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900">
       <h1 className="text-4xl m-10 font-bold text-gray-100 tracking-tight">
-        Generate questions and answers{" "}
+        Generate questions and answers 💬{" "}
       </h1>
       <form
         className="flex flex-col text-2xl mx-auto max-w-md w-full text-gray-300"
